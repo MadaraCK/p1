@@ -7,7 +7,6 @@
 body {
     text-align: center;
     text-transform: uppercase;
-    font-family: changa-one, sans-serif;
     font-size: 80px;
     margin-top: 160px;
     background-color: #03031A;
@@ -16,7 +15,7 @@ body {
 }
 .container{
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 1400px;
 }
 .nav_bgc{
     display: flex;
@@ -35,4 +34,10 @@ body {
 
 a{
     text-decoration: none;
+    color: white;
+}
+a:hover{
+    font-size: 46px;
+    transition: 1s;
+    text-shadow: 3px 3px darkred;
 }
